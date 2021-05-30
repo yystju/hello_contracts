@@ -6,6 +6,7 @@ const NFTBox = artifacts.require("NFTBox");
 const Commodity = artifacts.require("Commodity");
 
 module.exports = async function (deployer) {
+    console.log(`supperMaket : ${supperMaket}`);
   // await deployer.deploy(supperMaket);
   // await deployer.deploy(addressController);
 };
